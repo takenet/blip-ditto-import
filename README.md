@@ -104,7 +104,7 @@ npm run ditto:pull
 
 ### Dittowords TLS problem
 
-Some of you may face a problem with a certificate problem when running this script agains Ditto API. In order to fix it you have to set the **NODE_TLS_REJECT_UNAUTHORIZED** environment variable to **0**.
+Some of you may face a certificate problem when running this script against Ditto API. In order to fix it you have to set the **NODE_TLS_REJECT_UNAUTHORIZED** environment variable to **0**.
 
 Because this is highly not recommended, you can set it just for this command execution in particular.
 
