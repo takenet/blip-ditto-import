@@ -66,11 +66,31 @@ This id can be found in your projects URL. (eg: ht<span>tps://</span>app.dittowo
     }
     ```
 
-#### Outputs
+### Output Files
+
+#### Formats
 
 You can choose between **.json** and **.ts** files.
 
 *If you choose **.ts** files the script will perform an TypeScript transpile and message you if the output is not valid.*
+
+#### Nested Terms and Breaking Convention
+
+The Ditto platform has some limitations to deliver multi-level term trees. In order to overcome this characteristic, a convention was implemented to the script.
+
+If you want to break your term into a nested structure all you have to do is to identify the term with dots. Eg.:
+
+A Text Item ID (set in ditto) "main.header.title" will be outputed as:
+
+```typescript
+export const translations = {
+    main: {
+        header: {
+            title: "My text in american english"
+        }
+    }
+};
+```
 
 ### Executing
 
