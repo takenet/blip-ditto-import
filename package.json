@@ -1,7 +1,7 @@
 {
     "name": "blip-ditto-import",
     "author": "Blip",
-    "version": "1.0",
+    "version": "1.0.0",
     "dependencies": {
         "typescript": "^5.4.5"
     },
