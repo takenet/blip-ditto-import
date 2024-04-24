@@ -4,7 +4,7 @@ This package is a tool to sync with Dittowords dictionaries.
 
 ## Installation
 
-This package is meant to be used with **npx** command, which by default, will ask you to install it to your urser context on the first run.
+This package is meant to be used with **npx** command, which by default, will ask you to install it to your user context on the first run.
 
 If you prefer to have the package inside your project's node_modules you can execute the following:
 
